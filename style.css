@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+/*START header section*/
+
+header{
+    background-color: #1F2937;
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header p{
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*END header section */
