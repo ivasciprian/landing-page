@@ -52,13 +52,22 @@ a{
 
 /*START first div*/
 
+h1{
+    margin-bottom: 0;
+}
+
+.hero-div p{
+    margin: 5px;
+}
+
 .hero-div{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 5%;
     background-color: #1F2937;
-    padding: 100px 10% 100px 10%;
+    padding: 100px;
 }
 
 .hero-div div{
@@ -77,10 +86,15 @@ a{
     font-size: 18px;
 }
 
-.hero-div img{
+.image-container{
     width: 40%;
+    height: 300px;
     min-width: 300px;
+    overflow: hidden;
     background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*END first div*/
