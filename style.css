@@ -4,6 +4,15 @@ body{
     margin: 0;
 }
 
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 8px 28px;
+}
+
 /*START header section*/
 
 header{
@@ -38,3 +47,47 @@ a{
 }
 
 /*END header section */
+
+/*START content section*/
+
+/*START first div*/
+
+.hero-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    background-color: #1F2937;
+    padding: 100px 10% 100px 10%;
+}
+
+.hero-div div{
+    width: 40%;
+    min-width: 300px;
+}
+
+.hero-div h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-div p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-div img{
+    width: 40%;
+    min-width: 300px;
+    background-color: aliceblue;
+}
+
+/*END first div*/
+
+/*START second div*/
+
+.image-div{
+    display: flex;
+    flex-direction: column;
+}
