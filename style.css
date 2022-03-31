@@ -180,3 +180,45 @@ h2{
 }
 
 /*END third div*/
+
+/*START fourth div*/
+
+.call-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 5px;
+    width: 70%;
+    color: aliceblue;
+}
+
+.flex-container button{
+    border: 3px solid aliceblue;
+}
+
+.flex-container h3{
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.flex-container p{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+/*END fourth div*/
+
+/*END main content section*/
