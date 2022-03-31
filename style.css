@@ -2,6 +2,7 @@ body{
     background-color: aliceblue;
     padding: 0;
     margin: 0;
+    font-family: roboto, sans-serif;
 }
 
 button{
@@ -222,3 +223,15 @@ h2{
 /*END fourth div*/
 
 /*END main content section*/
+
+/*START footer section*/
+
+footer{
+    background-color: #1F2937;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 20px;
+}
